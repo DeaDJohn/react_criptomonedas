@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Criptomoneda = ({criptomoneda}) => {
-    const {FullName, Name} = criptomoneda.CoinInfo;
-    console.log(criptomoneda.CoinInfo);
-    return ( 
-        <option value={Name}>{FullName}</option>
-     );
+const Criptomoneda = ({ criptomoneda }) => {
+    const { FullName, Name } = criptomoneda.CoinInfo;
+    // console.log(criptomoneda.CoinInfo);
+    return ( <
+        option value = { Name } > { FullName } < /option>
+    );
 }
- 
+
 export default Criptomoneda;
